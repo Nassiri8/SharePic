@@ -1,0 +1,10 @@
+<?php
+Class TestsController extends Controller
+{
+    
+    function test()
+    {
+        $msg = "Salut c'est moi";
+        return response()->json($msg);
+    }
+}
